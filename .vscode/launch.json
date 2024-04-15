@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Develop",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_prod.dart",
+                "--flavor",
+                "prod",
+                "--dart-define-from-file",
+                ".configs/configs_prod.json"
+            ],
+        },
+        {
+            "name": "Homolog",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define-from-file",
+                ".configs/configs_homolog.json",
+                "-t",
+                "lib/main_homolog.dart",
+                "--flavor",
+                "homolog",
+               
+            ],
+        }
+    ]
+}

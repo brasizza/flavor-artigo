@@ -1,0 +1,7 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main_homolog.dart
+ASSET_PREFIX=homolog
+BUNDLE_NAME=MEU APP HOMOLOG
+BUNDLE_DISPLAY_NAME=MEU APP HOMOLOG

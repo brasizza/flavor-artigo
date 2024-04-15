@@ -1,0 +1,7 @@
+#include "../../Flutter/homologRelease.xcconfig"
+#include "Warnings.xcconfig"
+
+FLUTTER_TARGET=lib/main_homolog.dart
+ASSET_PREFIX=homolog
+BUNDLE_NAME=MEU APP HOMOLOG
+BUNDLE_DISPLAY_NAME=MEU APP HOMOLOG

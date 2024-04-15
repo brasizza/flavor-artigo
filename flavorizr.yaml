@@ -1,0 +1,21 @@
+flavors:
+  prod: #Nome do seu flavor
+    app:
+      name: "MEU APP" #Nome do seu app
+    android: #disposivivo
+      applicationId: "br.com.brasizza.marcus.meuapp" #Packagename
+    ios:
+      bundleId: "br.com.brasizza.marcus.meuapp" 
+    macos:
+      bundleId: "br.com.brasizza.marcus.meuapp"  
+  homolog: #Nome do seu flavor
+    app:
+      name: "MEU APP HOMOLOG"
+    android:
+      applicationId: "br.com.brasizza.marcus.meuapp_hml"
+    ios:
+      bundleId: "br.com.brasizza.marcus.meuapp_hml" 
+   
+    macos:
+      bundleId: "br.com.brasizza.marcus.meuapp_hml"
+      
