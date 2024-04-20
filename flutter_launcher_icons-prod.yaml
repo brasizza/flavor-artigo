@@ -1,3 +1,4 @@
+#
 flutter_launcher_icons:
   android: true
-  image_path: "assets/icons/android/prod.png"  
+  image_path: "assets/icons/android/prod.png"

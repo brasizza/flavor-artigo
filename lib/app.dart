@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
 
 import 'flavors.dart';
-import 'pages/my_home_page.dart';
+import 'pages/home/my_home_page.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
 
   @override
   Widget build(BuildContext context) {
-    debugPrint(const bool.hasEnvironment('BACKGROUND-COLOR').toString());
-    debugPrint(const String.fromEnvironment('BACKGROUND-COLOR'));
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: F.title,
@@ -21,7 +19,7 @@ class App extends StatelessWidget {
         ),
       ),
       home: _flavorBanner(
-        child: MyHomePage(),
+        child: const MyHomePage(),
         show: F.appFlavor == Flavor.homolog,
       ),
     );

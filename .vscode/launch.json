@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Develop",
+            "name": "Production",
             "request": "launch",
             "type": "dart",
             "args": [
@@ -15,7 +15,7 @@
             ],
         },
         {
-            "name": "Homolog",
+            "name": "Homolog/Develop",
             "request": "launch",
             "type": "dart",
             "args": [
